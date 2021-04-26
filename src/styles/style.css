@@ -1,0 +1,98 @@
+
+/* * Global styles */
+
+body, html {
+    font-size: 1vw;
+    font-family: 'Montserrat';
+}
+
+h1 {
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+h4 {
+    font-size: 2.4rem;
+    letter-spacing: .1vw;
+    font-weight: 700;
+}
+
+i {
+    font-size: 2rem; 
+    color: rgba(0, 0, 0, 0.25);
+}
+
+/* * Input styles */
+
+input {
+    font-size: 1.5rem;
+    border: none;
+    width: 100%;   
+    padding: 1vh 2vw 1vh 0;   
+    margin: 1vh 1vw;
+    box-sizing: border-box;   
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.39);
+    -webkit-transition: 0.5s;   
+    transition: 0.5s;   
+    outline: none; 
+    flex: 1;
+}
+input:hover {
+    
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.664); 
+}
+input:focus {
+    border-bottom: 1.5px solid black; 
+}
+
+/* *  Classes */
+
+.logo-colpos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.vertical-line {
+    border-left: .3vw solid #258DC8;
+    height: 9vw;
+    border-radius: 50px;
+    margin: 0 1.5vw 0 1.5vw;
+}
+
+.login-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position:relative; 
+    margin-bottom:5vh; 
+}
+
+.footer {
+    width: 99vw;
+    height: 15vh;
+    background: #28427B;
+}
+
+
+/* * Individual styles */
+
+#image-colpos {
+    width: 10vw;
+}
+
+
+
+
+
+
