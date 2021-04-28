@@ -5,7 +5,6 @@ body, html {
     font-size: 1vw;
     font-family: 'Montserrat';
     margin: 0;
-    overflow: hidden;
 }
 
 h1 {
@@ -122,6 +121,10 @@ a {
     background: #28427B;
     bottom: 0;
     position: fixed;
+}
+
+.overflow {
+    overflow: hidden;
 }
 
 

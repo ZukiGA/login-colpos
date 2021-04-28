@@ -7,41 +7,44 @@
     <title>Iniciar sesión</title>
     <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/login-colpos.appspot.com/o/colpos.png?alt=media&token=2950ed6f-9e6e-413b-afa4-fd2a9ff6649a">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <link rel="stylesheet" href="/src/styles/style.css">
+    <link rel="stylesheet" href="./src/styles/style.css">
 
     <style>
 
     </style>
 </head>
 <body>
-    <div class="logo-colpos">
-        <img src="https://firebasestorage.googleapis.com/v0/b/login-colpos.appspot.com/o/colpos.png?alt=media&token=2950ed6f-9e6e-413b-afa4-fd2a9ff6649a" alt="colpos" id="image-colpos">
-        <div class="vertical-line" > </div>
-        <h4>
-            Colegio de <br> postgraduados
-        </h4>
+    <div class="overflow">
+        <div class="logo-colpos">
+            <img src="https://firebasestorage.googleapis.com/v0/b/login-colpos.appspot.com/o/colpos.png?alt=media&token=2950ed6f-9e6e-413b-afa4-fd2a9ff6649a" alt="colpos" id="image-colpos">
+            <div class="vertical-line" > </div>
+            <h4>
+                Colegio de <br> postgraduados
+            </h4>
+        </div>
+    
+        <h1>Red de productores orgánicos de alimentos</h1>
+    
+        <form class="input-container" action="src/screens/home.html">
+            <div class="login-input">
+                <i class="fas fa-user"></i> 
+                <input type="email" name="email" placeholder="Correo electrónico" id="email">
+            </div>
+            <div class="login-input"> 
+                <i class="fas fa-key"></i> 
+                <input type="password" placeholder="Contraseña" id="password">
+            </div>
+            <button type="submit">Ingresar</button>
+            <p> <a href="src/screens/signup.html">
+                ¿No tienes cuenta aún? <br> Regístrate aquí
+            </a> </p>
+        </form>
+    
+        <footer class="footer">
+    
+        </footer>
     </div>
 
-    <h1>Red de productores orgánicos de alimentos</h1>
-
-    <form class="input-container" action="src/screens/home.html">
-        <div class="login-input">
-            <i class="fas fa-user"></i> 
-            <input type="email" name="email" placeholder="Correo electrónico" id="email">
-        </div>
-        <div class="login-input"> 
-            <i class="fas fa-key"></i> 
-            <input type="password" placeholder="Contraseña" id="password">
-        </div>
-        <button type="submit">Ingresar</button>
-        <p> <a href="src/screens/signup.html">
-            ¿No tienes cuenta aún? <br> Regístrate aquí
-        </a> </p>
-    </form>
-
-    <footer class="footer">
-
-    </footer>
 
     <script src="src/scripts/script.js"></script>
     <script src="https://kit.fontawesome.com/4733ad110e.js" crossorigin="anonymous"></script>
