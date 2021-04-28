@@ -1,12 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
+    <link rel="icon"
+        href="https://firebasestorage.googleapis.com/v0/b/login-colpos.appspot.com/o/colpos.png?alt=media&token=2950ed6f-9e6e-413b-afa4-fd2a9ff6649a">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/signup.css">
+    <link rel="stylesheet" href="../styles/home.css">
+
+    <style>
+
+    </style>
 </head>
+
 <body>
-    <h1>Home works!</h1>
+    <header>
+        <div class="logo-colpos">
+            <a href="http://www.colpos.mx/wb/"><img
+                    src="https://firebasestorage.googleapis.com/v0/b/login-colpos.appspot.com/o/colpos.png?alt=media&token=2950ed6f-9e6e-413b-afa4-fd2a9ff6649a"
+                    alt="colpos" id="logo-colpos"></a>
+            <div class="line"> </div>
+            <h4 class="colposName">
+                Colegio de <br> postgraduados
+            </h4>
+        </div>
+        <form action="../../../index.html">
+            <button class="logOut" type="submit">Cerrar sesión</button>
+        </form>
+
+
+    </header>
+
+    <h1>Tus datos personales</h1>
+
+    <form class="input-container" action="home.html">
+        <div class="input-container-signup">
+            <img src="https://firebasestorage.googleapis.com/v0/b/login-colpos.appspot.com/o/usuario.svg?alt=media&token=538c0be2-7db7-4d67-8239-5722b02178d9"
+                alt="usuario" id="usuario-image">
+            <div class="signup">
+                <div class="login-input">
+                    <i class="fas fa-user"></i>
+                    <input type="text" name="nombre" placeholder="Nombre(s)" id="nombreUsuario" disabled>
+                </div>
+                <div class="login-input">
+                    <i class="far fa-calendar-alt"></i>
+                    <input type="date" name="fechaNacimiento" id="fechaNacimientoUsuario" disabled>
+                </div>
+                <div class="login-input">
+                    <i class="fas fa-phone"></i>
+                    <input type="text" name="numeroTelefonico" placeholder="Número telefónico"
+                        id="numeroTelefonicoUsuario" disabled>
+                </div>
+                <div class="login-input">
+                    <i class="fas fa-home"></i>
+                    <input type="text" name="colonia" placeholder="Colonia" id="coloniaUsuario" disabled>
+                </div>
+                <div class="login-input">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" name="email" placeholder="Correo electrónico" id="emailUsuario" disabled>
+                </div>
+            </div>
+            <div class="signup">
+                <div class="login-input">
+                    <i class="fas fa-user"></i>
+                    <input type="text" name="apellido" placeholder="Apellidos" id="apellidoUsuario" disabled>
+                </div>
+                <div class="login-input">
+                    <i class="far fa-building"></i>
+                    <input type="text" name="ocupacion" placeholder="Ocupación" id="ocupacionUsuario" disabled>
+                </div>
+                <div class="login-input">
+                    <i class="fas fa-home"></i>
+                    <input type="text" name="codigoPostal" placeholder="Código Postal" id="codigoPostalUsuario"
+                        disabled>
+                </div>
+                <div class="login-input">
+                    <i class="fas fa-home"></i>
+                    <input type="text" name="calle" placeholder="Calle" id="calleUsuario" disabled>
+                </div>
+                <div class="login-input">
+                    <i class="fa fa-key"></i>
+                    <input type="password" name="password" placeholder="Contraseña" id="passwordUsuario" disabled>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottomButtons">
+            <button type="submit">Modificar datos</button>
+            <button type="button" id="buttonRight">Eliminar cuenta</button>
+        </div>
+    </form>
+
+    <footer class="footer-signup">
+
+    </footer>
+
+    <script src="src/scripts/script.js"></script>
+    <script src="https://kit.fontawesome.com/4733ad110e.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
