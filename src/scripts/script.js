@@ -1,3 +1,3 @@
 function login () {
-    console.log("OK")
+    document.gw
 }
