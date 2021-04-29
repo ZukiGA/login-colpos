@@ -29,7 +29,7 @@
 
         <h1>Red de productores orgánicos de alimentos</h1>
 
-        <form class="input-container" action="src/screens/home.html">
+        <form class="input-container">
             <div class="login-input">
                 <i class="fas fa-user"></i>
                 <input type="email" name="email" placeholder="Correo electrónico" id="email">
@@ -38,7 +38,7 @@
                 <i class="fas fa-key"></i>
                 <input type="password" placeholder="Contraseña" id="password">
             </div>
-            <button type="submit">Ingresar</button>
+            <button type="button" onclick="login()">Ingresar</button>
             <p> <a href="src/screens/signup.html">
                     ¿No tienes cuenta aún? <br> ¡Regístrate aquí!
                 </a> </p>
@@ -49,7 +49,7 @@
         </footer>
     </div>
 
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="src/scripts/script.js"></script>
     <script src="https://kit.fontawesome.com/4733ad110e.js" crossorigin="anonymous"></script>
 </body>
