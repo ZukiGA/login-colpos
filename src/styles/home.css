@@ -51,10 +51,14 @@ input:disabled {
 }
 
 .bottomButtons{
-    margin-left: 27vw;
+    margin-left: 5vw;
     margin-bottom: 7vh;
 }
 
 #buttonRight{
-    margin-left: 14vw;
+    margin-left: 12vw;
+}
+
+#buttonCenter{
+    margin-left: 12vw;
 }

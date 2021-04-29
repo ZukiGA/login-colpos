@@ -17,7 +17,9 @@ function login(){
     dataType: 'json',
     contentType: 'application/json',
     data: JSON.stringify(myUsuario),
-    success: function (){
+    success: function (data){
+        var obj = JSON.stringify(data.usuario);
+        localStorage.setItem("getData",obj);
         document.location.href = "src/screens/home.html";
     },
     error: function(e){

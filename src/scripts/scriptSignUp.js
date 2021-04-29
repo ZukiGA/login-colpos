@@ -34,7 +34,8 @@ function signUp(){
     contentType: 'application/json',
     data: JSON.stringify(myUsuario),
     success: function (){
-        document.location.href = "home.html";
+        alert("Cuenta creada exitosamente");
+        document.location.href = "../../index.html";
         
     },
     error: function(e){
