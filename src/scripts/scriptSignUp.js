@@ -19,14 +19,13 @@ function signUp(){
     apellido: myApellidos,
     correo: myEmail,
     contraseña: myPassword,
-    codigoPostal: myCodigoPostal,
+    codigoPostal: parseInt(myCodigoPostal),
     colonia: myColonia,
     calle: myCalle,
     fechaNacimiento: myFechaNacimientoUsuario,
     ocupacion: myOcupacion,
-    numeroTelefonico: myNumeroTelefonicoUsuario
+    numeroTelefonico: parseInt(myNumeroTelefonicoUsuario)
   }
-  console.log(myUsuario)
   
   $.ajax({
     url: url,
@@ -39,7 +38,7 @@ function signUp(){
         
     },
     error: function(e){
-        alert(e);
+        console.log(e)
         
     }
     
