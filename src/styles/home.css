@@ -1,0 +1,64 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F6F6F6;
+    height: 13vh;
+}
+
+#logo-colpos{
+    width: 5vw;
+}
+
+.line{
+    border-left: .22vw solid #258DC8;
+    height: 4.5vw;
+    border-radius: 50px;
+    margin: 0 1.2vw 0 1.2vw;
+}
+
+.colposName{
+    font-size: 1.5rem;
+    letter-spacing: .01vw;
+}
+
+.logOut{
+    margin-right: 2vw;
+    border-radius: 0%;
+    border: .3vw solid #28427B;
+    background-color: #F6F6F6;
+    color: #28427B;
+}
+
+.logOut:hover {
+    background-color: #28427B;
+}
+
+h1{
+    font-size: 3rem;
+    margin-top: 5vh;
+    margin-right: 21vw;
+    text-align: right;
+}
+
+#usuario-image{
+    width: 26vw;
+}
+
+input:disabled {
+    background-color:white;
+}
+
+.bottomButtons{
+    margin-left: 5vw;
+    margin-bottom: 7vh;
+}
+
+#buttonRight{
+    margin-left: 12vw;
+}
+
+#buttonCenter{
+    margin-left: 12vw;
+}
